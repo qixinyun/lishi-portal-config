@@ -6,9 +6,9 @@ class SmartyConfig
     public static function configDir()
     {
         $dirArray = array(
-            S_ROOT.'vendor/qixinyun/lanxian-portal-config/src/SmartyConfig/Lx',
-            S_ROOT.'vendor/qixinyun/lanxian-portal-config/src/SmartyConfig/Common',
-            S_ROOT.'vendor/qixinyun/lanxian-portal-config/src/SmartyConfig/',
+            S_ROOT.'vendor/qixinyun/lishi-portal-config/src/SmartyConfig/Ls',
+            S_ROOT.'vendor/qixinyun/lishi-portal-config/src/SmartyConfig/Common',
+            S_ROOT.'vendor/qixinyun/lishi-portal-config/src/SmartyConfig/',
         );
 
         return $dirArray;
